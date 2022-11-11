@@ -1,28 +1,23 @@
-# Data
->> array de objetos com as informações de projetos
-projects
+# 💎 Dados
 
-# Componentes maiores
->> componentes que usam os componentes menores recebendos os conteúdos por props
+```
+Crie uma pasta chamada `data`, nessa pasta crie um arquivo `conteudos.js` e dentro dele popule um array de objetos com as informações dos seus conteudos favoritos.
+```
 
-Bio 
-Cards (atenção pois aqui recebemos e mapeamos os dados também)
+# 🥷 Componentes do nosso projeto
 
-# Componentes menores
+- Header (ps: copie os simbolos u.u)
+  ```
+    ≂≂≂≂≂≂≂≂≂≂
+      Titulo
+    ≃≃≃≃≃≃≃≃≃≃
+  ```
+- Bio (Nome, apelido, foto e descrição)
+- Card (Titulo, descrição e foto)
+- Cards (Esse componente irá chamar o componente `card` repetindo ele pelo numero de projetos inseridos no array de projetos).
+- Footer
 
->> somente o esqueleto, os conteúdos serão inclusos por props
-
-Title 
-Subtitle
-Text
-Image
-Header
-Footer
-
-# Estrutura do App
-
->> recebe todos os conteúdos que devem aparecer na tela e recebe também o conteúdo do footer e header por props
-
+# 💜 Estrutura do App
 
 ```
 import { Header } from './components/Header'
@@ -35,13 +30,19 @@ import './App.css'
 function App() {
   return (
     <div className="App">
-      <Header content="Meus conteúdos favoritos" />
+      <Header title="Meus conteúdos favoritos" />
       <Bio />
       <Cards />
-      <Footer content="Feito com ♡ por Simara. E todos os direitos são reservados." />
+      <Footer message="Feito com ♡ por `seu nome`. E todos os direitos são reservados." />
     </div>
   )
 }
 
 export default App
 ```
+
+# 🥸 Vale relembrar
+
+- Como gerar o projeto em React com o vite ➟ ` npm create vite@latest nome-do-app -- --template react`
+
+- `❗ Bebam água minha gente <3 :) ❗`
