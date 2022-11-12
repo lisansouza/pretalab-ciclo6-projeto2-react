@@ -1,23 +1,29 @@
-# 💎 Dados
+# Ciclo Formativo PretaLab | ReactJS - Aula 6 - 12/11 🚀
 
-```
-Crie uma pasta chamada `data`, nessa pasta crie um arquivo `conteudos.js` e dentro dele popule um array de objetos com as informações dos seus conteudos favoritos.
-```
+## ✓ Projeto II
 
-# 🥷 Componentes do nosso projeto
+### `Projeto da semana`
 
-- Header (ps: copie os simbolos u.u)
-  ```
-    ≂≂≂≂≂≂≂≂≂≂
-      Titulo
-    ≃≃≃≃≃≃≃≃≃≃
-  ```
-- Bio (Nome, apelido, foto e descrição)
-- Card (Titulo, descrição e foto)
-- Cards (Esse componente irá chamar o componente `card` repetindo ele pelo numero de projetos inseridos no array de projetos).
-- Footer
+Vamos iniciar um projetinho react do zero com direito a componetização, uso de props, e uso de listas/keys.
+E deverá conter os componentes como descrito abaixo.
 
-# 💜 Estrutura do App
+O Projetinho será: `"Meus Conteúdos Favoritos"` ou `"Meus Projetos Favoritos"`.
+
+- A Simara fez o dela com base nos projetos preferidos, vem aqui entender melhor e se inspirar: [Site da Si](https://projeto-react2.netlify.app/)
+
+- A Lis fez o dela com base nos conteudos preferidos, vem aqui entender melhor e se inspirar: [Site da Lis](https://projeto-react2-lis.netlify.app)
+
+# Vamos juntas?
+
+## 🚧 Crie seu projeto com o Vite
+
+Não lembra? Calma bença! Segue o comandinho do sucesso ➟ ` npm create vite@latest nome-do-app -- --template react`
+
+~
+
+## 💜 Estrutura do App
+
+Limpe o projeto removendo o conteúdo que vem inserido nele para que possamos inserir o nosso!
 
 ```
 import { Header } from './components/Header'
@@ -41,8 +47,35 @@ function App() {
 export default App
 ```
 
+~
+
+## 💎 Dados da nossa aplicação
+
+Crie uma pasta chamada `data`, nessa pasta crie um arquivo `conteudos.js` ou `projetos.js` e dentro dele popule o array de objetos com as informações (titulo, link para gif q represente, descrição e link para mais detalhes).
+
+~
+
+## 🥷 Componentes do nosso projeto
+
+- Header (ps: copie os simbolos u.u)
+  ```
+    ≂≂≂≂≂≂≂≂≂≂
+      Titulo
+    ≃≃≃≃≃≃≃≃≃≃
+  ```
+- Bio (Nome, foto, apelido e descrição)
+- Card (Titulo, um gif que represente, descrição e link para mais informações)
+- Cards (Esse componente irá chamar o componente `card` repetindo ele pelo numero de elementos existente na lista).
+- Footer
+
+  ```
+                            ~~~~~~~~~~
+  Feito com ♡ por SEUNOME. E todos os direitos são reservados
+
+  ```
+
+  ~
+
 # 🥸 Vale relembrar
 
-- Como gerar o projeto em React com o vite ➟ ` npm create vite@latest nome-do-app -- --template react`
-
-- `❗ Bebam água minha gente <3 :) ❗`
+`❗ Bebam água minha gente <3 :) ❗`
