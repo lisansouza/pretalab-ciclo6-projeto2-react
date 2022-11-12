@@ -1,4 +1,4 @@
-import { Title } from "./components/title";
+import { Title } from "./components/Title";
 import { Bio } from "./components/Bio";
 import { Cards } from "./components/Cards";
 import { Footer } from "./components/Footer";
