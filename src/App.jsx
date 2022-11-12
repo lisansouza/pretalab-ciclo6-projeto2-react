@@ -1,20 +1,19 @@
-import { Header } from './components/Header'
-import { Bio } from './components/Bio'
-import { Cards } from './components/Cards'
-import { Footer } from './components/Footer'
+import { Title } from "./components/title";
+import { Bio } from "./components/Bio";
+import { Cards } from "./components/Cards";
+import { Footer } from "./components/Footer";
 
-
-import './App.css'
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <Header content="Meus projetos favoritos" />
       <Bio />
+      <Title text="Meus Assuntos Favoritos" />
       <Cards />
-      <Footer content="Feito com ♡ por Simara. E todos os direitos são reservados." />
+      <Footer message="Feito com ♡ por Lis. E todos os direitos são reservados." />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

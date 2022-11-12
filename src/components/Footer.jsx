@@ -1,5 +1,8 @@
-export function Footer (props) {
+export const Footer = (props) => {
   return (
-    <footer>{props.content}</footer>
-  )
-}
+    <footer>
+      <p>~~~~~~~~~</p>
+      <p>{props.message}</p>
+    </footer>
+  );
+};
