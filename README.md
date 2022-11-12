@@ -51,19 +51,22 @@ export default App
 
 ## 💎 Dados da nossa aplicação
 
-Crie uma pasta chamada `data`, nessa pasta crie um arquivo `conteudos.js` ou `projetos.js` e dentro dele popule o array de objetos com as informações (titulo, link para gif q represente, descrição e link para mais detalhes).
+Crie uma pasta chamada `data`, nesta pasta crie os seguintes arquivos:
+
+- `profile-data.js` e crie um objeto com informações que serão inseridas na Bio (nome, apelido, foto, descrição).
+- `contents.js` ou `projects.js` e dentro dele popule o array de objetos com as informações (titulo, link para gif q represente, descrição e link para mais detalhes).
 
 ~
 
 ## 🥷 Componentes do nosso projeto
 
-- Header (ps: copie os simbolos u.u)
+- Header
   ```
     ≂≂≂≂≂≂≂≂≂≂
       Titulo
     ≃≃≃≃≃≃≃≃≃≃
   ```
-- Bio (Nome, foto, apelido e descrição)
+- Bio (deve receber os dados do arquivo 'profile-data.js').
 - Card (Titulo, um gif que represente, descrição e link para mais informações)
 - Cards (Esse componente irá chamar o componente `card` repetindo ele pelo numero de elementos existente na lista).
 - Footer
@@ -74,8 +77,7 @@ Crie uma pasta chamada `data`, nessa pasta crie um arquivo `conteudos.js` ou `pr
 
   ```
 
-  ~
-
+~
 # 🥸 Vale relembrar
 
 `❗ Bebam água minha gente <3 :) ❗`
